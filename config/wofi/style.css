@@ -1,0 +1,37 @@
+* {
+  font-family: "Atkinson Hyperlegible", Roboto, Arial, sans-serif;
+  border-radius: 0.5em;
+  background: transparent;
+  color: white;
+  box-sizing: border-box;
+}
+
+#window {
+  background: rgba(52, 40, 84, 0.8);
+  border: 2px solid #503d46;
+}
+#inner-box {
+  padding: 0.5em;
+}
+
+#input {
+  padding: 0.5em 1em;
+  border-radius: 0.5em 0.5em 0 0;
+  border: 1px solid #503d46;
+  box-shadow: none;
+}
+#input:focus {
+  border: 1px solid #b73670;
+}
+
+#entry {
+  padding: 0.5em 1em;
+}
+#entry:selected {
+  border: 1px solid #b73670;
+  outline: none;
+  font-weight: bold;
+}
+#entry #img {
+  margin-right: 1rem;
+}

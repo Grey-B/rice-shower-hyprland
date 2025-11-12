@@ -1,0 +1,66 @@
+* {
+  font-family: "Atkinson Hyperlegible", Roboto, Arial, sans-serif;
+  background: transparent;
+}
+
+window#waybar {
+  background: rgba(52, 40, 84, 0.5);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+tooltip {
+  background: rgba(81, 61, 71, 0.9);
+}
+
+#workspaces,
+#clock,
+#pulseaudio,
+#custom-power {
+  color: white;
+  background: #b73670;
+  border-radius: 16px;
+  margin: 4px;
+  margin-right: 6px;
+  padding: 2px 16px;
+  transition: all 150ms ease-in-out;
+}
+#workspaces:hover,
+#clock:hover,
+#pulseaudio:hover,
+#custom-power:hover {
+  background: #6a1e44;
+}
+
+#workspaces {
+  background: transparent;
+  padding: 0 8px;
+  margin-left: 8px;
+}
+
+#workspaces button {
+  color: white;
+  background: #b73670;
+  padding: 0 12px;
+  margin-right: 4px;
+  border-radius: 16px;
+  border-style: none;
+}
+#workspaces button.active,
+#workspaces button.focused,
+#workspaces button:hover {
+  color: #342854;
+  background: #33d4fa;
+}
+
+#workspaces button.active:hover,
+#workspaces button:active {
+  color: white;
+  background: #7987de;
+}
+
+#custom-power {
+  margin-right: 14px;
+  padding-left: 11px;
+  padding-right: 16px;
+}
