@@ -16,7 +16,7 @@ Wallpaper image created by [Chahan](https://www.pixiv.net/en/artworks/134070371)
 
 **Warning: These steps assumes you use Arch or an Arch-based Linux distribution.**
 
-1. Run `sudo pacman -S hyprland hyprpaper hyprshot waybar dolphin kitty wofi libnotify` and `yay -S swaync wlogout` to install the dependencies.
+1. Run `sudo pacman -S hyprland hyprpaper waybar dolphin kitty wofi libnotify` and `yay -S swaync wlogout` to install the dependencies.
 
 2. Install the [Atkinson Hyperlegible](https://www.brailleinstitute.org/freefont/) font. This can be done with `yay -S ttf-atkinson-hyperlegible-next ttf-atkinson-hyperlegible-next-mono ttf-atkinson-hyperlegible-nerd`
 
